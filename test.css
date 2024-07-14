@@ -11,17 +11,63 @@
     display: inline;
     margin: 10px;
 }
-.card{
+.card1{
     size: 50px;
     border: 2px solid black;
     border-radius: 20px;
     padding: 2px;
+    margin-bottom: 40px;
 }
 
-h1{
+.h1{
     padding-left: 30cm;
     padding-right: 40px;
 }
 .i{
     margin-left: 15px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    align-content: space-around;
+    border-radius: 5px;
+}
+.card_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 8px; */
+}
+.header_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card_body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.button{
+    border: 0px;
+    border-radius: 3px;
+    height: 50px;
+    width: 110px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 104, 170);
+}
+i{
+    margin: 15px;
 }
